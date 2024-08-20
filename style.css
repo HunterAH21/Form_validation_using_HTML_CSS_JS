@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #242424;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #333;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #bbb;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #444;
+    color: #ddd;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    background-color: #5e5e5e;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #737373;
+}
+
+.error {
+    color: #ff7f7f;
+    font-size: 14px;
+    margin-top: -10px;
+    text-align: left;
+}
+
+.register-button {
+    margin-top: 18px;
+}
+
+.success {
+    color: #4CAF50;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.visit-us {
+    color: #ddd;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon-container {
+    margin: 0 10px;
+}
+
+.icon-link {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.visit-us {
+    color: #ddd;
+}
+
+.fab {
+    font-size: 24px;
+}
+
+.github-icon, .codepen-icon {
+    color: #fff;
+}
